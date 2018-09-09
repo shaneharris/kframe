@@ -1179,7 +1179,7 @@ AFRAME.registerComponent('orbit-controls', {
         el.setAttribute('look-controls', 'enabled', false);
       }
     });
-
+/*
     document.body.style.cursor = 'grab';
     document.addEventListener('mousedown', () => {
       document.body.style.cursor = 'grabbing';
@@ -1187,7 +1187,7 @@ AFRAME.registerComponent('orbit-controls', {
     document.addEventListener('mouseup', () => {
       document.body.style.cursor = 'grab';
     });
-
+*/
     this.target = new THREE.Vector3();
     el.getObject3D('camera').position.copy(this.data.initialPosition);
   },
